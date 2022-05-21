@@ -131,3 +131,11 @@ table-dumper 0.1.0 (2022-05-21 22:48:12) - Björn Hempel <bjoern@hempel.li>
 ```bash
 bin/table-dumper -u > bin/table-dumper
 ```
+
+## Import dump
+
+Currently, the import is not yet supported, but can be done manually.
+
+```bash
+mysql -h[host] -u[user] -p[password] -P[port] [dbname] -e "source [path-to-sql-file]"
+```
