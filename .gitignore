@@ -1,0 +1,12 @@
+# .idea
+/.idea
+
+# .env
+/.env
+
+# fixture
+/fixtures/db
+
+# Own lock and lock files
+/table-dumper.log
+/table-dumper.lock
